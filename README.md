@@ -33,3 +33,9 @@ Fear & Greed는 안정적인 무료 공식 데이터 연결 전까지 준비 중
 - Price change: positive = deep pink (#D94F7D), negative = navy (#253858).
 - Condition metrics: condition met = deep pink, condition unmet = navy.
 - Pastel card backgrounds remain unchanged.
+
+
+## v7 변경사항
+- Fear & Greed Graph의 무료 공개 JSON 엔드포인트를 서버에서 조회해 Fear & Greed 카드에 표시합니다. API 키가 필요 없습니다.
+- Fear & Greed를 핵심 조건 집계에 포함해 6개 조건으로 표시합니다.
+- 가격 일일 등락률은 2년 범위 시작가가 아니라 직전 일봉 종가와 비교하도록 수정했습니다.
