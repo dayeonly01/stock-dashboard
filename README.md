@@ -28,3 +28,8 @@ Fear & Greed는 안정적인 무료 공식 데이터 연결 전까지 준비 중
 - 파스텔 지표 카드 적용
 - 지표 값의 시각적 우선순위 강화
 - Fear & Greed는 안정적인 무료 데이터가 없어 핵심 조건 집계에서 제외
+
+## v6 color semantics
+- Price change: positive = deep pink (#D94F7D), negative = navy (#253858).
+- Condition metrics: condition met = deep pink, condition unmet = navy.
+- Pastel card backgrounds remain unchanged.
