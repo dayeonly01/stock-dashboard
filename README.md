@@ -1,2 +1,37 @@
-# stock-dashboard
-stock-dashboard
+# Stock Signal Dashboard
+
+무료 개인용 미국 주식/ETF 지표 대시보드입니다.
+
+## 기능
+- 티커 검색: SOXL, NVDA, AAPL, QQQ 등
+- 현재가/등락률
+- RSI(14)
+- 200일 이동평균
+- 최근 2년 고점 대비 낙폭
+- VIX
+- S&P 500 낙폭 및 200일선
+- 관심종목: 브라우저 localStorage 저장
+
+## 실행
+Node.js 18 이상에서:
+1. `npm install`
+2. `npm start`
+3. 브라우저에서 `http://localhost:3000`
+
+## Render
+- Build Command: `npm install`
+- Start Command: `npm start`
+- Environment variables: 없음
+
+## 무료 데이터에 대한 주의
+이 버전은 API 키가 없는 무료 시장 데이터 접근을 사용합니다. 제공자의 비공식/비보장 엔드포인트는 변경, 지연, 차단될 수 있습니다. 개인용 프로토타입에 적합하며 상업적 재배포에는 데이터 라이선스를 별도로 확인해야 합니다.
+
+Fear & Greed는 무료이면서 안정적이고 공식적으로 보장된 데이터 API를 확인하기 어려워 초기 버전에서는 '준비 중'으로 표시합니다. 나머지 지표가 고장나지 않도록 분리했습니다.
+
+## 계산 기준
+- RSI: 최근 14 거래일 단순 평균 gain/loss 기반 RSI
+- 200DMA: 최근 200 거래일 종가 평균
+- 종목 낙폭: 받아온 2년 가격 데이터 내 최고 종가 대비 현재 종가
+- S&P 500 낙폭: 동일하게 2년 데이터 내 최고 종가 대비 현재 종가
+
+이 도구는 투자 조언이나 자동 매수 신호가 아니라 사용자가 정한 지표를 모아 확인하기 위한 개인용 도구입니다.
