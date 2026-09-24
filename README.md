@@ -1,4 +1,4 @@
-# Stock Signal v2
+# Stock Signal v12
 
 무료 개인용 주식/시장 지표 대시보드입니다.
 
@@ -53,3 +53,12 @@ Fear & Greed는 안정적인 무료 공식 데이터 연결 전까지 준비 중
 - Fear & Greed는 숫자보다 상태(FEAR / EXTREME FEAR / NEUTRAL / GREED / EXTREME GREED)를 크게 표시
 - 200일 이동평균 카드는 최신 가격과 일봉 종가를 구분해 표기
 - 3×2 동일 크기 카드 레이아웃 유지
+
+## v12 변경사항
+- 현재 가격을 프리마켓 / 정규장 / 애프터마켓 포함 최신 1분 가격으로 표시
+- 현재 거래 세션 PRE-MARKET / REGULAR / AFTER-HOURS / CLOSED 표시
+- Fear & Greed 상태를 한국어(극도의 공포/공포/눈치 보는 중/낙관적/매우 낙관적)로 크게 표시
+- 각 지표에 직관적인 한마디 추가
+- 200일 이동평균 이격도를 더 크게 강조
+- 종목 200일선 이격도는 현재 세션 최신 가격 기준으로 계산
+- 하단 PRICE HISTORY 그래프 제거
